@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title></title>
+  </head>
+  <body>
+
+
+
+    <script>
+    function countDs(str) {
+      var Hd = 0;
+      var textD = "D";
+      var text = textD.split("");
+      for (var D=0; D<str.length;D++) {
+          if (text.indexOf(str[D]) > -1) {
+               Hd = Hd + 1;
+          }
+      }
+       return Hd;
+  }
+      console.log(countDs("DDC"));
+
+    </script>
+
+
+  </body>
+</html>
